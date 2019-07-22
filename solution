@@ -4,7 +4,7 @@ num_stops = 0
 for on, off in stops:
     bus_capacity += on - off
     num_stops += 1
-    if bus_capacity >= 50:
+    if bus_capacity >= 40:
        break
 print("Bus capacity:", bus_capacity)
 print("Number of stops:",num_stops)
